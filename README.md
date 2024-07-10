@@ -8,7 +8,7 @@ EC2接続後以下手順
 1.yum install docker -y    
 2.yum install git -y    
 3.systemctl start docker    
-4.git clone https://github.com/19951023Taa/terraform_container.git  
+4.git clone https://github.com/19951023Taa/terraform_EC2_Docker.git    
 5.DockerfileのRDSの接続情報を更新    
 6.docker build -t test-app .    
 7.docker run -dit --name test-container -p 8080:8080 test-app    
