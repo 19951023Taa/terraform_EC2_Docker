@@ -1,0 +1,6 @@
+*.tfstate
+
+modules.json
+
+terraform-provider*
+
